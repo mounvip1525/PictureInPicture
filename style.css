@@ -1,0 +1,31 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background:linear-gradient(90deg,#8d93ab 50%,#d6e0f0 50%)
+}
+button{
+    height:65px;
+    width:100px;
+    border:1.2px solid black;
+    border-radius: 7px;
+    background:linear-gradient(to top,#8d93ab,#d6e0f0);
+    text-shadow: 0 px 1px black;
+    cursor: pointer;
+    outline: none;
+    font-size:20px;
+    color:white;
+}
+button:hover{
+    background:linear-gradient(to top,#d6e0f0,#8d93ab);
+}
+button:active {
+    transform: translate(0, 0.2rem);
+    box-shadow: 0 0.1rem rgba(255, 255, 255,0.5);
+  }
